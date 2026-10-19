@@ -1,4 +1,4 @@
-# Final Project: Emotion Detector
+# Final Project
 
 A Flask web app that detects emotions (anger, disgust, fear, joy, sadness) in
 text and reports the dominant emotion, using the Watson NLP `EmotionPredict`
@@ -30,4 +30,4 @@ Blank input, or an input the service rejects with HTTP 400, shows
 ```
 python3 -m unittest test_emotion_detection -v
 python3 -m pylint server.py
-```
+``
